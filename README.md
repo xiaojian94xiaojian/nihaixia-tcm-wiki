@@ -38,15 +38,25 @@ nihaixia-tcm-wiki/
 
 ## 安装
 
-```bash
-# 安装为用户级 Skill
-git clone https://github.com/xiaojian94xiaojian/nihaixia-tcm-wiki.git ~/.claude/skills/nihaixia-tcm-wiki
+**用户级安装**（所有项目都能用）：
 
-# 或安装为项目级 Skill
+```bash
+git clone https://github.com/xiaojian94xiaojian/nihaixia-tcm-wiki.git ~/.claude/skills/nihaixia-tcm-wiki
+```
+
+**项目级安装**（仅当前项目可用）：
+
+```bash
 git clone https://github.com/xiaojian94xiaojian/nihaixia-tcm-wiki.git .claude/skills/nihaixia-tcm-wiki
 ```
 
 也可直接下载 ZIP 解压到对应目录。
+
+> **不会安装？** 把下面这句话复制给你的 AI Agent，它会帮你搞定：
+>
+> ```
+> 帮我安装这个 skill：https://github.com/xiaojian94xiaojian/nihaixia-tcm-wiki
+> ```
 
 ## 使用
 
