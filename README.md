@@ -1,6 +1,6 @@
 # 倪海厦中医知识库
 
-基于倪海厦（汉唐中医）**人纪系列**课程的经方中医知识库，按 LLM Wiki 方法论构建，封装为 Claude Code Skill，开箱即用。
+基于倪海厦（汉唐中医）**人纪系列**课程的经方中医知识库，按 karpathy方法论构建以及改进，封装为 Claude Code Skill，开箱即用。
 
 ## 内容概览
 
@@ -52,11 +52,11 @@ git clone https://github.com/xiaojian94xiaojian/nihaixia-tcm-wiki.git .claude/sk
 
 也可直接下载 ZIP 解压到对应目录。
 
-> **不会安装？** 把下面这句话复制给你的 AI Agent，它会帮你搞定：
->
-> ```
-> 帮我安装这个 skill：https://github.com/xiaojian94xiaojian/nihaixia-tcm-wiki
-> ```
+ **如果不会安装？** 把下面这句话复制给你的 AI Agent，它会帮你搞定：
+
+ ```bash
+帮我安装这个 skill：https://github.com/xiaojian94xiaojian/nihaixia-tcm-wiki
+ ```
 
 ## 使用
 
@@ -64,10 +64,20 @@ git clone https://github.com/xiaojian94xiaojian/nihaixia-tcm-wiki.git .claude/sk
 
 ```text
 /nihaixia-tcm-wiki 什么是六经辨证？
+```
+```text
 /nihaixia-tcm-wiki 大青龙汤和小青龙汤的区别是什么？
+```
+```text
 /nihaixia-tcm-wiki 倪海厦怎么说乳癌的病机？
+```
+```text
 /nihaixia-tcm-wiki 请帮我规划一个经方学习路径
+```
+```text
 /nihaixia-tcm-wiki 足三里穴在什么位置？有什么功效？
+```
+```text
 /nihaixia-tcm-wiki 桂枝汤的组成和适应证是什么？
 ```
 
